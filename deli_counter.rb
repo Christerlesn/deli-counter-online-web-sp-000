@@ -1,4 +1,4 @@
-katz_deli = ["Mary", "Brandon"]
+katz_deli = []
 
 def line(index)
   line_array = []
