@@ -5,7 +5,6 @@ def line(index)
     if x == []
     puts "The line is empty"
   else
-    return x.size
-end
+index.each_with_index {|val, index -1| puts "#{val} #{index}"} 
 end
 end
