@@ -1,8 +1,7 @@
 katz_deli = ["Mary", "Brandon"]
 
 def line(index)
-  index.each do |x|
-    if x == []
+  index == []
     puts "The line is empty"
   else
 index.each_with_index do |val, index|
